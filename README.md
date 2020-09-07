@@ -142,3 +142,52 @@ Challenge 1
     then he loses so print player lose and computer wins.
 
 """
+# Day 3
+
+# Assignments - 6
+
+"""
+Name: 
+    Clean the Messy salary from list        
+Filename:
+    salary2.py
+Problem Statement:
+    salaries = ['$876,001', '$543,903', '$2453,896'] 
+    Clean the Messy salaries into integers for Data Processing
+    Remove the $
+    Remove the ,
+    Convert into integer
+Hint: 
+    We can use slicing concept to remove $ or remove() method 
+    We can use the split and join to remove the , comma
+    We canuse the int() typecast to convert into integer
+"""
+
+
+
+
+
+# Assignments - 7
+
+"""
+Name: 
+    Shopping List        
+Filename:
+    shopping.py
+Problem Statement:
+    We are going to make a "Shopping List" app. 
+    Run the python script to start using it.
+    Put new things into the list one at a time
+    Enter the word DONE - in all CAPS - to QUIT the program
+    And once i quit, I want the app to show me everything thats on my list.
+
+Hint:
+    Step 1: Make a list to hold onto our items.
+    Step 2: Print out instructions on how to use the app
+
+    Step 3: Ask for new items
+    Step 4: Add new items to our list
+    Step 5: Be able to quit the app with DONE
+
+    Step 6: print out the list
+"""
