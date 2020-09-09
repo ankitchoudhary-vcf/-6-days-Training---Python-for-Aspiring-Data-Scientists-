@@ -19,13 +19,8 @@ Hint 1
 """
 shopping_list = [] #empty list created
 
-print(
-  """
-  What should we pick at the store? 
-  Enter 'DONE' to stop adding
-
-  """
-)
+print("What should we pick at the store?")
+print("Enter 'DONE' to stop adding")
 
 while (True):
   new_item = input("Next item: ")

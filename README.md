@@ -115,7 +115,8 @@ Code Challenge
     14
     FizzBuzz
 """
-# Interactive Guess the Number Game 
+
+ # Interactive Guess the Number Game 
 
 """
 Challenge 1
@@ -144,6 +145,27 @@ Challenge 1
 """
 # Day 3
 
+"""
+Challenge 1
+    We are going to make a "Shopping List" app. 
+    Run the script to start using it.
+    Put new things into the list one at a time
+    Enter the word DONE - in all CAPS - to QUIT the program
+    And once i quit, I want the app to show me everything thats on my list.
+
+Hint 1
+#pseudocode 
+    Step 1: Make a list to hold onto our items.
+    Step 2: Print out instructions on how to use the app
+
+    Step 3: Ask for new items
+    Step 4: Add new items to our list
+    Step 5: Be able to quit the app with DONE
+
+    Step 6: print out the list
+"""
+
+
 # Assignments - 6
 
 """
@@ -162,10 +184,6 @@ Hint:
     We can use the split and join to remove the , comma
     We canuse the int() typecast to convert into integer
 """
-
-
-
-
 
 # Assignments - 7
 
@@ -190,4 +208,89 @@ Hint:
     Step 5: Be able to quit the app with DONE
 
     Step 6: print out the list
+"""
+
+
+# Day 4
+
+"""
+Challenge 1
+    We are going to make a "Shopping List" app. 
+    Run the script to start using it.
+    Put new things into the list one at a time
+    Enter the word DONE - in all CAPS - to QUIT the program
+    And once i quit, I want the app to show me everything thats on my list.
+
+Hint 1
+#pseudocode 
+    Step 1: Make a list to hold onto our items.
+    Step 2: Print out instructions on how to use the app
+
+    Step 3: Ask for new items
+    Step 4: Add new items to our list
+    Step 5: Be able to quit the app with DONE
+
+    Step 6: print out the list
+
+Challenge 2
+    If I type SHOW, 
+    I should be able to see what is currently in the list
+
+    If I type HELP, 
+    I should be able to see all the help for these special commands
+
+Hint 2
+    Step 1: Have a HELP command
+    Step 2: Have a SHOW command
+    Step 3: Add a function for adding into the list 
+    Step 4: Cleanup the code in general
+
+Challenge 3
+
+    There should be a functionality to remove items from the list at a specific index using REMOVE
+""" 
+
+# Assignments - 8
+
+"""
+Code Challenge
+  Name: 
+    Book Shop
+  Filename: 
+    book_shop1.py
+  Problem Statement:
+    Imagine an accounting routine used in a book shop.
+    It works on a list with sublists, which look like this:
+        
+    Order Number    Book Title              Author      Quantity    Price per Item
+    34587           Learning Python         Mark Lutz   4           40.95
+    98762           Programming Python      Mark Lutz   5           56.80
+    77226           Head First Python       Paul Barry  3           32.95
+    88112           Einführung in Python3   Bernd Klein 3           24.99    
+    
+    
+    Write a Python program, 
+    A) which returns Order Summary as a list with 2-tuples. 
+       Each tuple consists of the order number and the product of the price per items 
+       and the quantity. 
+
+    Output:
+    [('34587', 163.8), ('98762', 284.0), ('77226', 98.85), ('88112', 74.97)]
+    
+    The product should be increased by 10 INR if the value of the order is smaller 
+    than 100.00 INR.
+    
+    Output:
+    [('34587', 163.8), ('98762', 284.0), ('77226', 108.85), ('88112', 84.97)]
+    
+    
+
+  Hint: 
+    Write a Python program using lambda and map.
+orders = [ ["34587", "Learning Python, Mark Lutz", 4, 40.95], 
+      ["98762", "Programming Python, Mark Lutz", 5, 56.80], 
+      ["77226", "Head First Python, Paul Barry", 3,32.95],
+      ["88112", "Einführung in Python3, Bernd Klein",  3, 24.99]
+    ]
+
 """
